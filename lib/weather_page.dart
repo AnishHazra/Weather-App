@@ -3,9 +3,32 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:weather_app/hourly_forecast_item.dart';
 import 'package:weather_app/additional_items.dart';
+import 'package:http/http.dart' as http;
+import 'package:weather_app/secrets.dart';
 
-class WeatherPage extends StatelessWidget {
+class WeatherPage extends StatefulWidget {
   const WeatherPage({super.key});
+
+  @override
+  State<WeatherPage> createState() => _WeatherPageState();
+}
+
+class _WeatherPageState extends State<WeatherPage> {
+  @override
+  void initState() {
+    super.initState();
+    getCurrentWeather();
+  }
+
+  Future getCurrentWeather() async {
+    String cityName = 'Delhi';
+    final res = await http.get(
+      Uri.parse(
+        'https://api.openweathermap.org/data/2.5/weather?q=$cityName&APPID=$openWeatherAPIKey',
+      ),
+    );
+    print(res.body);
+  }
 
   @override
   Widget build(BuildContext context) {

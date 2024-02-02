@@ -20,8 +20,10 @@ Stay informed about the weather conditions in your area and beyond with Weatheri
 
 ## Screensort
 
-![Screenshot 2024-02-02 172845](https://github.com/AnishHazra/Weather-App/assets/121759157/b1661bbf-22ad-403e-b81f-d2e55b8503b2)
-![Screenshot 2024-02-02 172946](https://github.com/AnishHazra/Weather-App/assets/121759157/d80aa315-daaa-4405-9760-ff080acee5c2)
+![Screenshot 2024-02-02 172946](https://github.com/AnishHazra/Weather-App/assets/121759157/0c26396c-d70f-4697-8617-c507e478a337)
+![Screenshot 2024-02-02 172845](https://github.com/AnishHazra/Weather-App/assets/121759157/554cfd03-f030-4ca2-a12c-e629cc703d2c)
+
+
 
 
 
